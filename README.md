@@ -1,20 +1,16 @@
-AgroCircle
-==========
+# AgroCircle
 
-This are the first steps to create an open documentation and design for the
-agrokruh agricultural robot, invented by Ján Šlinský.
+These are the first steps to create an open documentation and design
+for the [agrokruh](http://agrokruh.sk/) agricultural robot
+invented by Ján Šlinský.
 
-Lets work on the [https://github.com/thoka/AgroCircle/wiki](github wiki) to establish a first description and roadmap.
+Lets work on the
+[OSEG Wiki](https://wiki.opensourceecology.de/AgroCircle)
+to establish a first description and
+[Roadmap (on GitHub)](https://github.com/thoka/AgroCircle/wiki/Roadmap).
 
+## Models
 
-
-
-Scad
-----
-
-
-Export scad files to step using freecad:
-http://forum.lulzbot.com/viewtopic.php?f=8&t=243
-
-
-
+The OpenSCAD 3D model source files in this repo were
+[auto-generated from FreeCAD models](
+https://forum.lulzbot.com/t/tip-converting-openscad-files-easily-to-step-with-freecad/228).
