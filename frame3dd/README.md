@@ -1,19 +1,21 @@
-calculate simulations using frame3dd
+# Structural analysis using `frame3dd`
 
-install frame3dd and python-visual
+[Frame3DD](http://frame3dd.sourceforge.net/) is free open-source software
+for static and dynamic structural analysis of 2D and 3D frames and trusses
+with elastic and geometric stiffness.
 
-change parameters in in.csv
+## Instructions
 
-run calculation
+1. install [`frame3dd`](http://frame3dd.sourceforge.net/) and `python-visual`
+1. change parameters in "in.csv".
+1. run calculation:
 
-```bash
+    ```bash
 ./calc.sh
-```
+    ```
+1. find results in "out.csv"
 
-find results in out.csv
-
-Parameters
-==========
+## Parameters
 
 	l: traverse length (mm)
 	n: number of outer tubes (3 or 4)
@@ -24,10 +26,8 @@ Parameters
 	d2: inner tubes outer diameter (mm)
 	w2: inner tubes wall thickness (mm)
 
-Calculations
-============
+## Calculations
 
 	W: traverse total weight (kg)
 	d0: deformation by own weight
 	d200: deformation by central force of additional 2000N
-
