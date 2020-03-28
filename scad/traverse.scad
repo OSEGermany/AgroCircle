@@ -1,6 +1,6 @@
-l = 1200;
-n = 3;   
-nz = 12;
+l = 1200;    // total traverse length
+n = 3;       // number of main rods (of length l)
+nz = 12;     // number of sub-sections the main rods are divide into
 r = 40 ;     // distance outer rods
 d1 = 4.3;    // thick tubes outer diameter
 w1 = 0.26;   // thick tubes wall thickness
