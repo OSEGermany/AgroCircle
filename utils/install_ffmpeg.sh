@@ -1,5 +1,5 @@
 #!/bin/bash
-# this downloads and compiles current version of ffmpeg
+# Downloads and compiles the current version of ffmpeg
 
 SRC=$HOME/src/ffmpeg
 BUILD=$HOME/src/ffmpeg/build
@@ -23,7 +23,7 @@ make -j $JOBS
 make install
 make distclean
 
-## x264 
+## x264
 cd $SRC
 wget http://download.videolan.org/pub/x264/snapshots/last_x264.tar.bz2
 tar xjvf last_x264.tar.bz2
@@ -44,7 +44,7 @@ make -j $JOBS
 make install
 make distclean
 
-#opus
+# opus
 cd $SRC
 wget http://downloads.xiph.org/releases/opus/opus-1.1.tar.gz
 tar xzvf opus-1.1.tar.gz
@@ -55,7 +55,7 @@ make install
 make distclean
 
 
-#libvpx
+# libvpx
 cd $SRC
 wget http://webm.googlecode.com/files/libvpx-v1.3.0.tar.bz2
 tar xjvf libvpx-v1.3.0.tar.bz2
@@ -66,7 +66,7 @@ make install
 make clean
 
 
-#ffmpeg
+# ffmpeg
 cd $SRC
 wget http://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2
 tar xjvf ffmpeg-snapshot.tar.bz2
@@ -83,7 +83,3 @@ make distclean
 
 hash -r
 
-
-
-
-	
