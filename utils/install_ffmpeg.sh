@@ -7,7 +7,7 @@ BIN=$HOME/bin
 JOBS=2
 export "PATH=$PATH:$BIN"
 
-#create dirs if not existent
+# create dirs if not existent
 mkdir -p $SRC
 mkdir -p $BUILD
 mkdir -p $BIN
@@ -33,7 +33,7 @@ make -j $JOBS
 make install
 make distclean
 
-##
+## fdk-aac
 cd $SRC
 wget -O fdk-aac.zip https://github.com/mstorsjo/fdk-aac/zipball/master
 unzip fdk-aac.zip
@@ -44,7 +44,7 @@ make -j $JOBS
 make install
 make distclean
 
-# opus
+## opus
 cd $SRC
 wget http://downloads.xiph.org/releases/opus/opus-1.1.tar.gz
 tar xzvf opus-1.1.tar.gz
@@ -54,8 +54,7 @@ make -j $JOBS
 make install
 make distclean
 
-
-# libvpx
+## libvpx
 cd $SRC
 wget http://webm.googlecode.com/files/libvpx-v1.3.0.tar.bz2
 tar xjvf libvpx-v1.3.0.tar.bz2
@@ -65,8 +64,7 @@ make -j $JOBS
 make install
 make clean
 
-
-# ffmpeg
+## ffmpeg
 cd $SRC
 wget http://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2
 tar xjvf ffmpeg-snapshot.tar.bz2
