@@ -3,7 +3,7 @@
 # download videos from youtube
 
 mkdir -p youtube
-grep youtube.com/watch "Existing Documentation.txt" \
+grep youtube.com/watch "ExistingDocumentation.md" \
 	| sed \
 		-e 's|.*\](http[s]\?://www.youtube.com/watch|https://www.youtube.com/watch|' \
 		-e 's|)$||' \
