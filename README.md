@@ -50,6 +50,19 @@ Open design and documentation for an agricultural robot similar in function to t
 - [AGROKRUH - sattelite view (Google Maps) of an array of fields](http://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3)
 - [AGROKRUH - Introductory text](http://ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf)
 
+Lets work on the
+[OSEG Wiki](https://wiki.opensourceecology.de/AgroCircle)
+to establish a first description and
+[Roadmap (on GitHub)](https://github.com/thoka/AgroCircle/wiki/Roadmap).
+
+### Models
+
+The OpenSCAD 3D model source files in this repo were
+[auto-generated from FreeCAD models](
+https://forum.lulzbot.com/t/tip-converting-openscad-files-easily-to-step-with-freecad/228).
+
+## Parts
+
 ### Port
 
 [Agrokruh - port (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=53)
@@ -211,19 +224,8 @@ http://www.youtube.com/watch?v=ZwP3A6z4sFc)
 http://www.youtube.com/watch?v=2P7MGNLz5xE)
 
 
-
 ## Discussion
 
 [OSE Germany - forum](http://forum.opensourceecology.de/viewtopic.php?f=28&t=632&p=3504#p3504)
 
 [Google Groups](https://groups.google.com/forum/#!forum/agrocircle)
-
-
-### Relevant OpenSCAD tutorials
-
-[Export SCAD files to step using FreeCAD](
-http://forum.lulzbot.com/viewtopic.php?f=8&t=243)
-
-
-
-
