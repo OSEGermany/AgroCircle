@@ -1,0 +1,56 @@
+date-created: 2020-05-06
+
+manifest-author:
+  name:  Robin Vobruba
+  affiliation: Open Source Ecology Germany
+  email: robin.vobruba@ose-germany.de
+
+manifest-language: English-US
+
+documentation-language: english-US
+
+title: Fruit Nut Vegetable Carer
+
+description: |
+ A machine to effectivly produce sustainable vegetables,
+ with small electrical energy input.
+ Small enough so it could come from renewables.
+ Healthly vegetables - without concentrating the soil,
+ without danger of air emissions from diesel maschines,
+ in balance with the agro-eko system in organic quality & in normal prices.
+ At the space of 2 hectares, you can grow about 25 tons of highly valuable vegetables with AgroCircle,
+ while consuming only 4000 kWh of electrical energy annualy.
+
+intended-use: environmentally friendly farming, community supported agriculture (CSA)
+
+keywords:
+  - farming
+  - automation
+  - sustainable
+
+project-link: https://github.com/osegermany/AgroCircle/tree/veg-carer
+project-link: https://github.com/faerietree/fruit_nut_vegetable_robot
+documentation-home: https://wiki.opensourceecology.de/AgroCircle
+
+contact:
+  name: Jan R.B.-Wein
+  affiliation: Open Source Ecology Germany
+  email: radagast@ciry.at
+
+#version: 1.0.0
+
+development-stage: early-stages
+
+made: false
+
+made-independently: false
+
+license:
+  hardware: Creative Commons Attribution-ShareAlike 4.0 International
+  documentation: Creative Commons Attribution-ShareAlike 4.0 International
+
+licensor:
+  name: Jan R.B.-Wein
+  affiliation: Open Source Ecology Germany
+  email: radagast@ciry.at
+
