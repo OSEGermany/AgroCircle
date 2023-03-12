@@ -7,12 +7,12 @@ manifest-author:
 
 manifest-language: English-US
 
-documentation-language: German-DE
+documentation-language: english-US
 
-title: AgroCircle
+title: Fruit Nut Vegetable Carer
 
 description: |
- AgroCircle is a machine to effectivly produce sustainable vegetables,
+ A machine to effectivly produce sustainable vegetables,
  with small electrical energy input.
  Small enough so it could come from renewables.
  Healthly vegetables - without concentrating the soil,
@@ -28,14 +28,14 @@ keywords:
   - automation
   - sustainable
 
-project-link: https://github.com/osegermany/AgroCircle/tree/master
-project-link: https://github.com/thoka/AgroCircle
+project-link: https://github.com/osegermany/AgroCircle/tree/veg-carer
+project-link: https://github.com/faerietree/fruit_nut_vegetable_robot
 documentation-home: https://wiki.opensourceecology.de/AgroCircle
 
 contact:
-  name: Thomas Kalka
+  name: Jan R.B.-Wein
   affiliation: Open Source Ecology Germany
-  email: thomas.kalka@googlemail.com
+  email: radagast@ciry.at
 
 #version: 1.0.0
 
@@ -50,7 +50,7 @@ license:
   documentation: Creative Commons Attribution-ShareAlike 4.0 International
 
 licensor:
-  name: Thomas Kalka
+  name: Jan R.B.-Wein
   affiliation: Open Source Ecology Germany
-  email: thomas.kalka@googlemail.com
+  email: radagast@ciry.at
 
