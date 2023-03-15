@@ -1,20 +1,28 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+# SPDX-FileCopyrightText: 2020-2023 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+# Exit immediately on each error and unset variable;
+# see: https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+#set -Eeu
+
 # Downloads and compiles the current version of ffmpeg
 
-SRC=$HOME/src/ffmpeg
-BUILD=$HOME/src/ffmpeg/build
-BIN=$HOME/bin
+SRC="$HOME/src/ffmpeg"
+BUILD="$HOME/src/ffmpeg/build"
+BIN="$HOME/bin"
 JOBS=2
 export "PATH=$PATH:$BIN"
 
 # create dirs if not existent
-mkdir -p $SRC
-mkdir -p $BUILD
-mkdir -p $BIN
-
+mkdir -p "$SRC"
+mkdir -p "$BUILD"
+mkdir -p "$BIN"
 
 ## yasm
-cd $SRC
+cd "$SRC"
 wget http://www.tortall.net/projects/yasm/releases/yasm-1.2.0.tar.gz
 tar xzvf yasm-1.2.0.tar.gz
 cd yasm-1.2.0
@@ -24,7 +32,7 @@ make install
 make distclean
 
 ## x264
-cd $SRC
+cd "$SRC"
 wget http://download.videolan.org/pub/x264/snapshots/last_x264.tar.bz2
 tar xjvf last_x264.tar.bz2
 cd x264-snapshot*
@@ -34,7 +42,7 @@ make install
 make distclean
 
 ## fdk-aac
-cd $SRC
+cd "$SRC"
 wget -O fdk-aac.zip https://github.com/mstorsjo/fdk-aac/zipball/master
 unzip fdk-aac.zip
 cd mstorsjo-fdk-aac*
@@ -45,7 +53,7 @@ make install
 make distclean
 
 ## opus
-cd $SRC
+cd "$SRC"
 wget http://downloads.xiph.org/releases/opus/opus-1.1.tar.gz
 tar xzvf opus-1.1.tar.gz
 cd opus-1.1
@@ -55,7 +63,7 @@ make install
 make distclean
 
 ## libvpx
-cd $SRC
+cd "$SRC"
 wget http://webm.googlecode.com/files/libvpx-v1.3.0.tar.bz2
 tar xjvf libvpx-v1.3.0.tar.bz2
 cd libvpx-v1.3.0
@@ -65,7 +73,7 @@ make install
 make clean
 
 ## ffmpeg
-cd $SRC
+cd "$SRC"
 wget http://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2
 tar xjvf ffmpeg-snapshot.tar.bz2
 cd $SRC/ffmpeg
@@ -80,4 +88,3 @@ make install
 make distclean
 
 hash -r
-
