@@ -13,7 +13,7 @@ with elastic and geometric stiffness.
     ```bash
 ./calc.sh
     ```
-1. find results in "out.csv"
+1. find results in "gen/calc/struct-analysis/out.csv"
 
 ## Parameters
 
