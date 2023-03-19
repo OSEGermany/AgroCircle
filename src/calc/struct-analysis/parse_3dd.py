@@ -1,5 +1,11 @@
 #!/usr/bin/python2
 
+# SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+# SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
 import re
 data_re = re.compile(r"^((\s+(([0-9\.e+\-]+[tc]?)|min|max))+)\s*$")
 

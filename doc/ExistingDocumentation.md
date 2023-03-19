@@ -1,3 +1,11 @@
+<!--
+SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+SPDX-FileCopyrightText: 2014 ganafets82 <raabe.stefan@googlemail.com>
+SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Existing Agrokruh Documentation
 
 - [Project homepage (Slovak)](http://www.agrokruh.sk/)

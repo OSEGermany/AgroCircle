@@ -1,4 +1,12 @@
 #!/usr/bin/python2
+
+# SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+# SPDX-FileCopyrightText: 2014 toka <toka@brutus.co-buero.de>
+# SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
 # encoding: utf8
 """
 calculates input data for frame3dd

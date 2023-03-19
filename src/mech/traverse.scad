@@ -1,3 +1,12 @@
+/*
+ * SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+ * SPDX-FileCopyrightText: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
+ * SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+ * SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ */
+
 l = 1200;    // total traverse length
 n = 3;       // number of main rods (of length l)
 nz = 12;     // number of sub-sections the main rods are divide into

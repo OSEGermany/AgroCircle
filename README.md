@@ -1,3 +1,14 @@
+<!--
+SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@googlemail.com>
+SPDX-FileCopyrightText: 2015 faerietree <radagast@dragontale.de>
+SPDX-FileCopyrightText: 2017 - 2020 faerietree <radagast@ciry.at>
+SPDX-FileCopyrightText: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
+SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Fruit Nut Vegetable Carer
 
 Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper (10K€ instead of 60K+€) and highly automated reusing the worlddevelopment pivot: [industrial robot](http://github.com/faerietree/manipulator).

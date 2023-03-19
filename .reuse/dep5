@@ -1,0 +1,24 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: AgroCircle
+Upstream-Contact: Robin Vobruba <hoijui.quaero@gmail.com>
+Source: https://github.com/osegermany/AgroCircle/
+
+Files: gen/calc/out.csv
+Copyright: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+License: CC-BY-SA-4.0
+
+Files: gen/elec/high_level_overview.jpg
+Copyright: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
+License: CC-BY-SA-4.0
+
+Files: res/assets/media/img/environment/*.jpg
+Copyright: 2017 - 2020 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
+License: CC-BY-SA-4.0
+
+Files: src/calc/struct-analysis/in.csv
+Copyright: 2014 Thomas Kalka <thomas.kalka@co-buero.de>
+License: CC-BY-SA-4.0
+
+Files: src/elec/high_level_overview.sch
+Copyright: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
+License: CC-BY-SA-4.0

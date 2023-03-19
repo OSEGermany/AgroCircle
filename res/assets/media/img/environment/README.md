@@ -1,3 +1,10 @@
+<!--
+SPDX-FileCopyrightText: 2017 - 2020 faerietree <radagast@ciry.at>
+SPDX-FileCopyrightText: 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Construction
 
 1. Remove existing terrain (wilderness, earth, gravel, ...)
