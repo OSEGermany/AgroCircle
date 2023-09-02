@@ -127,7 +127,7 @@ Realisation:
 
 - [Agrokruh - main propulsion - 1 (Slovak, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
 - [Agrokruh - main propulsion - 2 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=2m01)
-- [Agrokruh - pedal propulsion (Sloval, video)](http://www.agrokruh.sk/node/33)
+- [Agrokruh - pedal propulsion (Sloval, video)](http://www.youtube.com/watch?v=fuixyXiodR8#t=26)
 - 3phase motor + transmission (prototype utilizes 750W motor).
 - Alternative:
   Custom wound motor, wound for torque and low RPM.
