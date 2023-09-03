@@ -147,7 +147,6 @@ Realisation:
 A main wheel with two stabilizing secondary wheels.\
 Alternative: Two main wheels.
 
-
 ## Propulsion in radial (sliding) direction (speed sets spirale movement)
 
 Ján Šlinský coupled the rotary movement in tangential direction
@@ -159,7 +158,6 @@ such that the chain must rotate when the arm is moving around the center
 The center attachment method,
 e.g. sprocket/pulley diameter,
 sets speed and gauge/track width of the spirale.
-
 
 ## Tool holder
 
@@ -243,7 +241,6 @@ http://www.youtube.com/watch?v=ZwP3A6z4sFc)
 
 [HD version of TEDx Talk (Slovak with English subtitles)](
 http://www.youtube.com/watch?v=2P7MGNLz5xE)
-
 
 ## Discussion
 
