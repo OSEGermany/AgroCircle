@@ -13,7 +13,6 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper (10K€ instead of 60K+€) and highly automated reusing the worlddevelopment pivot: [industrial robot](http://github.com/faerietree/manipulator).
 
-
 ## [Environment](res/assets/media/img/environment/README.md)
 
 ![](res/assets/media/img/environment/20170510_121423.jpg)
@@ -28,7 +27,6 @@ Open design and documentation for an agricultural robot similar in function to t
 * \[deprecated\] Operates on a linear field. (Robot attached to linear slider.) \[see FarmBot\]
 * [5 axis manipulator](http://github.com/faerietree/manipulator) for static usage
 * [walker](http://github.com/faerietree/walker) + [manipulator](http://github.com/faerietree/manipulator) for dynamic|infinite field size deployment.
-
 
 ## Requirements
 
