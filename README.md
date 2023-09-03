@@ -19,7 +19,7 @@ reusing the world-development pivot:
 
 ## [Environment](res/assets/media/img/environment/README.md)
 
-![](res/assets/media/img/environment/20170510_121423.jpg)
+![Environment construction](res/assets/media/img/environment/20170510_121423.jpg)
 
 ## Overview
 
