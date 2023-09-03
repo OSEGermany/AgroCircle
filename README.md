@@ -23,33 +23,33 @@ Open design and documentation for an agricultural robot similar in function to t
 
 ### Variants
 
-* \[deprecated\] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.) \[see AgroKruh\]
-* \[deprecated\] Operates on a linear field. (Robot attached to linear slider.) \[see FarmBot\]
-* [5 axis manipulator](http://github.com/faerietree/manipulator) for static usage
-* [walker](http://github.com/faerietree/walker) + [manipulator](http://github.com/faerietree/manipulator) for dynamic|infinite field size deployment.
+- \[deprecated\] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.) \[see AgroKruh\]
+- \[deprecated\] Operates on a linear field. (Robot attached to linear slider.) \[see FarmBot\]
+- [5 axis manipulator](http://github.com/faerietree/manipulator) for static usage
+- [walker](http://github.com/faerietree/walker) + [manipulator](http://github.com/faerietree/manipulator) for dynamic|infinite field size deployment.
 
 ## Requirements
 
-* Operate on an as big as convenient ground surface to produce enough food
+- Operate on an as big as convenient ground surface to produce enough food
   to feed at least a dozen (12) people.
-* Resolution high enough to reach as much of this surface as possible and useful.
-* Prepare soil for growing plants on this surface of operation.
-* Grow plants on this surface of operation.
-* Allow manual intervention where and when appropriate.
-* Cultivate and nurse ground and plants for fulfilling all requirements of plants
+- Resolution high enough to reach as much of this surface as possible and useful.
+- Prepare soil for growing plants on this surface of operation.
+- Grow plants on this surface of operation.
+- Allow manual intervention where and when appropriate.
+- Cultivate and nurse ground and plants for fulfilling all requirements of plants
   (soil nutrients, light, water, space).
 
 ## Example: AgroKruh (by Ján Šlinský)
 
-* Can automate 80% of the required work.
-* Radial arm length 18m:
+- Can automate 80% of the required work.
+- Radial arm length 18m:
   surface of operation = PI * 18^2 = ca 1017m²
-* Propulsion power input: 0,75 KW (typical electrical system efficiency)
-* Power / year = 4000KW for 15 fields
+- Propulsion power input: 0,75 KW (typical electrical system efficiency)
+- Power / year = 4000KW for 15 fields
   (radial arm can be mounted on several field center point slots).
-* => 267 kWyear / field.
-* Harvest: 2 tons / field.
-* 1 robotic unit for 3..5 fields (also see satellite images)
+- => 267 kWyear / field.
+- Harvest: 2 tons / field.
+- 1 robotic unit for 3..5 fields (also see satellite images)
 
 ## Documentation
 
@@ -96,12 +96,12 @@ Realisation:
 
 [Agrokruh - rotary bearing (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=5m35)
 
-* optional incremental encoder (for feedback)
-* Electrical sliding contacts:
+- optional incremental encoder (for feedback)
+- Electrical sliding contacts:
   5x (L1-3, Neutral, PE/Grounding),
-* Build out of copper (Cu) tube, carbon, plastic,
-* 16A current rating (Attention false friend: The longer the wire, the thicker it must be.).
-* Sprocket/Gear for radial sliding movement chain.
+- Build out of copper (Cu) tube, carbon, plastic,
+- 16A current rating (Attention false friend: The longer the wire, the thicker it must be.).
+- Sprocket/Gear for radial sliding movement chain.
 
 ### Radial slider
 
@@ -111,9 +111,9 @@ Function:
 
 Realisation:
 
-* 3 sided,
-* if required attach support wheel / stabiliser.
-* Forklift beam, or lattice beam. Or custom weld.
+- 3 sided,
+- if required attach support wheel / stabiliser.
+- Forklift beam, or lattice beam. Or custom weld.
 
 ## Main Propulsion (tangential direction)
 
@@ -154,28 +154,28 @@ sets speed and gauge/track width of the spirale.
 - [Agrokruh - tool holder - 1 (Slovak, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=4m30)
 - [Agrokruh - tool holder - 2 (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55)
 
-* Self-constraining transmission ratio + stepper motor,
-* Chain- or cable drive with feedback of the optional incremental encoder,
+- Self-constraining transmission ratio + stepper motor,
+- Chain- or cable drive with feedback of the optional incremental encoder,
   to compensate for slip of the main drive
   (in tangential direction which is coupled to the sliding movement
   and thus the sliding speed varies).
-* Position detection via markers on the traversing beam
+- Position detection via markers on the traversing beam
   (slider holding structure).
   inductive, rfid, optical or position measurement
   (relative to e.g. center).
-* High speed mode for returning to tool home position.
-* Power outlet (for electrical tools),
-* And/or PTO (power take-off) or pulley,
-* Protection for wiring and (water) piping,
-* Sliding plain bearing or rollers,
-* Standardised Tool interface/coupler (e.g. of 1-axle tractors),
-* Solenoid valve for water control.
+- High speed mode for returning to tool home position.
+- Power outlet (for electrical tools),
+- And/or PTO (power take-off) or pulley,
+- Protection for wiring and (water) piping,
+- Sliding plain bearing or rollers,
+- Standardised Tool interface/coupler (e.g. of 1-axle tractors),
+- Solenoid valve for water control.
 
 ## Tools
 
-* Modified hand tools.
-* Tools of 1-axle tractors.
-* Custom-built.
+- Modified hand tools.
+- Tools of 1-axle tractors.
+- Custom-built.
 
 [Overview of the used tools in Slovakia (Sloval, video)](https://www.youtube.com/watch?v=nStEuHWJE-o)
 
@@ -187,25 +187,25 @@ BAD link: http://www.agrokruh.sk/node/954
 
 ### Tiller
 
-* [Tillage (Sloval, video)](https://www.youtube.com/watch?v=FOb1tvbV8-w)
-* [Weed control (Sloval, video)](https://www.youtube.com/watch?v=Qy5D3NGZPzk)
+- [Tillage (Sloval, video)](https://www.youtube.com/watch?v=FOb1tvbV8-w)
+- [Weed control (Sloval, video)](https://www.youtube.com/watch?v=Qy5D3NGZPzk)
   ('Beikraut' is the correct term. Thanks!
   'Unkraut' is misleading, creates sentiments like the 'Fischreiher'
   which is now called 'Graureiher'.)
 
 ### Grubber (Sowing/seeding preparation tool)
 
-* [Grubber - 1 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
-* [Grubber - 2 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55)
+- [Grubber - 1 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
+- [Grubber - 2 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55)
 
 ### Electronics (optional)
 
 For automating task (e.g. watering time + amount).
 
-* uC (micro-controller),
-* inverter,
-* timer,
-* communication interface (e.g. WLAN or 2-wire bus I2C or CAN).
+- uC (micro-controller),
+- inverter,
+- timer,
+- communication interface (e.g. WLAN or 2-wire bus I2C or CAN).
 
 ## Misc
 
