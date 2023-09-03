@@ -11,7 +11,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Fruit Nut Vegetable Carer
 
-Open design and documentation for an agricultural robot similar in function to the AgroKruh, invented by Ján Šlinský, but simpler, cheaper (10K€ instead of 60K+€) and highly automated reusing the worlddevelopment pivot: [industrial robot](http://github.com/faerietree/manipulator).
+Open design and documentation for an agricultural robot
+similar in function to the AgroKruh invented by Ján Šlinský,
+but simpler, cheaper (10K€ instead of 60K+€) and highly automated,
+reusing the world-development pivot:
+[industrial robot](http://github.com/faerietree/manipulator).
 
 ## [Environment](res/assets/media/img/environment/README.md)
 
@@ -23,10 +27,17 @@ Open design and documentation for an agricultural robot similar in function to t
 
 ### Variants
 
-- \[deprecated\] Operates on a circular field. (Robot attached to linear slider which itself is attached to a rotational center joint.) \[see AgroKruh\]
-- \[deprecated\] Operates on a linear field. (Robot attached to linear slider.) \[see FarmBot\]
+- \[deprecated\] Operates on a circular field.
+  (the Robot is attached to a linear slider,
+  which itself is attached to a rotational center joint.)
+  \[see AgroKruh\]
+- \[deprecated\] Operates on a linear field.
+  (Robot attached to linear slider.)
+  \[see FarmBot\]
 - [5 axis manipulator](http://github.com/faerietree/manipulator) for static usage
-- [walker](http://github.com/faerietree/walker) + [manipulator](http://github.com/faerietree/manipulator) for dynamic|infinite field size deployment.
+- [walker](http://github.com/faerietree/walker) +
+  [manipulator](http://github.com/faerietree/manipulator)
+  for dynamic|infinite field size deployment.
 
 ## Requirements
 
@@ -100,7 +111,8 @@ Realisation:
 - Electrical sliding contacts:
   5x (L1-3, Neutral, PE/Grounding),
 - Build out of copper (Cu) tube, carbon, plastic,
-- 16A current rating (Attention false friend: The longer the wire, the thicker it must be.).
+- 16A current rating
+  (Attention false friend: The longer the wire, the thicker it must be)
 - Sprocket/Gear for radial sliding movement chain.
 
 ### Radial slider
