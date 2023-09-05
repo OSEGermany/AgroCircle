@@ -39,6 +39,8 @@ reusing the world-development pivot:
   [manipulator](http://github.com/faerietree/manipulator)
   for dynamic|infinite field size deployment.
 
+For more info, see the [existing documentation](doc/history/ExistingDocumentation.md).
+
 ## Requirements
 
 - Operate on an as big as convenient ground surface to produce enough food
