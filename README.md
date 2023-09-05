@@ -17,7 +17,7 @@ but simpler, cheaper (10K€ instead of 60K+€) and highly automated,
 reusing the world-development pivot:
 [industrial robot](http://github.com/faerietree/manipulator).
 
-## [Environment](res/assets/media/img/environment/README.md)
+## [Environment](doc/assembly/Construction.md)
 
 ![Environment construction](res/assets/media/img/environment/20170510_121423.jpg)
 
