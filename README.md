@@ -4,12 +4,25 @@ SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@googlemail.com>
 SPDX-FileCopyrightText: 2015 faerietree <radagast@dragontale.de>
 SPDX-FileCopyrightText: 2017 - 2020 faerietree <radagast@ciry.at>
 SPDX-FileCopyrightText: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
-SPDX-FileCopyrightText: 2020 hoijui <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2020 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
 # Fruit Nut Vegetable Carer
+
+[![License: CC-BY-SA-4.0](
+    https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](
+    https://creativecommons.org/licenses/by-sa/4.0/)
+[![REUSE status](
+    https://api.reuse.software/badge/github.com/osegermany/AgroCircle)](
+    https://api.reuse.software/info/github.com/osegermany/AgroCircle)
+[![made-with-Markdown](
+    https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](
+    https://commonmark.org)
+[![OSH Openness](
+    https://osegermany.github.io/AgroCircle/osh-badge-openness.svg)](
+    https://osegermany.github.io/AgroCircle/osh-report.html)
 
 Open design and documentation for an agricultural robot
 similar in function to the AgroKruh invented by Ján Šlinský,
