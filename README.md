@@ -195,7 +195,7 @@ sets speed and gauge/track width of the spirale.
 
 [Agrokruh - striding spades (Sloval, video)](https://www.youtube.com/watch?v=2Rb5o1D7laI)
 
-BAD link: http://www.agrokruh.sk/node/954
+BAD link: <http://www.agrokruh.sk/node/954>
 
 ### Tiller
 
