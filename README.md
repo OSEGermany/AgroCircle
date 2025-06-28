@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2014 Thomas Kalka <thomas.kalka@googlemail.com>
 SPDX-FileCopyrightText: 2015 faerietree <radagast@dragontale.de>
 SPDX-FileCopyrightText: 2017 - 2020 faerietree <radagast@ciry.at>
 SPDX-FileCopyrightText: 2017 Jan R.I. B.F. v.W. v.Z. (faerietree) <radagast@ciry.at>
-SPDX-FileCopyrightText: 2020 - 2023 Robin Vobruba <hoijui.quaero@gmail.com>
+SPDX-FileCopyrightText: 2020 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -79,11 +79,11 @@ For more info, see the [existing documentation](doc/history/ExistingDocumentatio
 
 ## Documentation
 
-- [AGROKRUH - Artistic, animated introduction (Slovak, video, 5:10)](https://vimeo.com/99343531)
-- [AGROKRUH - All implements (English, video, 8:34)](https://www.youtube.com/watch?v=mYrJ0BJ4Qak)
-- [AGROKRUH - All implements (Slovak, video, 3:22)](https://www.youtube.com/watch?v=nStEuHWJE-o)
-- [AGROKRUH - sattelite view (Google Maps) of an array of fields](https://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3)
-- [AGROKRUH - Introductory text](https://ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf)
+- [AgroKruh - Artistic, animated introduction (Slovak, video, 5:10)](https://vimeo.com/99343531)
+- [AgroKruh - All implements (English, video, 8:34)](https://www.youtube.com/watch?v=mYrJ0BJ4Qak)
+- [AgroKruh - All implements (Slovak, video, 3:22)](https://www.youtube.com/watch?v=nStEuHWJE-o)
+- [AgroKruh - sattelite view (Google Maps) of an array of fields](https://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3)
+- [AgroKruh - Introductory text](https://ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf)
 
 Lets work on the
 [OSEG Wiki](https://wiki.opensourceecology.de/AgroCircle)
