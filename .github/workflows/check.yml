@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022 - 2024 Robin Vobruba <hoijui.quaero@gmail.com>
+# SPDX-FileCopyrightText: 2022 - 2025 Robin Vobruba <hoijui.quaero@gmail.com>
 #
 # SPDX-License-Identifier: Unlicense
 
@@ -26,12 +26,12 @@ jobs:
     name: Compile
     runs-on: ubuntu-latest
     steps:
-      - name: "Check out the repo"
-        uses: actions/checkout@v3
+      - name: Check out the sources
+        uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Fix checkout ownership
+      - name: OSH-Tool - Fix checkout ownership
         run: |
           # HACK Workaround for bug:
           # https://github.com/actions/runner/issues/2033
@@ -39,16 +39,16 @@ jobs:
           printf "[safe]\n\tdirectory = /github/workspace" \
             > /home/runner/work/_temp/_github_home/.gitconfig
 
-      - name: OSH-Tool Check/Linting
+      - name: OSH-Tool - Check/Linting
         id: osh-check
         uses: hoijui/osh-tool@master
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "public/"
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -58,4 +58,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
