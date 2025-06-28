@@ -15,8 +15,8 @@ SPDX-License-Identifier: CC-BY-SA-4.0
     https://img.shields.io/badge/License-CC%20BY--SA%204.0-blue.svg)](
     https://creativecommons.org/licenses/by-sa/4.0/)
 [![REUSE status](
-    https://api.reuse.software/badge/github.com/osegermany/AgroCircle)](
-    https://api.reuse.software/info/github.com/osegermany/AgroCircle)
+    https://api.reuse.software/badge/github.com/OSEGermany/AgroCircle)](
+    https://api.reuse.software/info/github.com/OSEGermany/AgroCircle)
 [![made-with-Markdown](
     https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](
     https://commonmark.org)
@@ -28,7 +28,7 @@ Open design and documentation for an agricultural robot
 similar in function to the AgroKruh invented by Ján Šlinský,
 but simpler, cheaper (10K€ instead of 60K+€) and highly automated,
 reusing the world-development pivot:
-[industrial robot](http://github.com/faerietree/manipulator).
+[industrial robot](https://github.com/faerietree/manipulator).
 
 ## [Environment](doc/assembly/Construction.md)
 
@@ -47,9 +47,9 @@ reusing the world-development pivot:
 - \[deprecated\] Operates on a linear field.
   (Robot attached to linear slider.)
   \[see FarmBot\]
-- [5 axis manipulator](http://github.com/faerietree/manipulator) for static usage
-- [walker](http://github.com/faerietree/walker) +
-  [manipulator](http://github.com/faerietree/manipulator)
+- [5 axis manipulator](https://github.com/faerietree/manipulator) for static usage
+- [walker](https://github.com/faerietree/walker) +
+  [manipulator](https://github.com/faerietree/manipulator)
   for dynamic|infinite field size deployment.
 
 For more info, see the [existing documentation](doc/history/ExistingDocumentation.md).
@@ -80,10 +80,10 @@ For more info, see the [existing documentation](doc/history/ExistingDocumentatio
 ## Documentation
 
 - [AGROKRUH - Artistic, animated introduction (Slovak, video, 5:10)](https://vimeo.com/99343531)
-- [AGROKRUH - All implements (English, video, 8:34)](http://www.youtube.com/watch?v=mYrJ0BJ4Qak)
+- [AGROKRUH - All implements (English, video, 8:34)](https://www.youtube.com/watch?v=mYrJ0BJ4Qak)
 - [AGROKRUH - All implements (Slovak, video, 3:22)](https://www.youtube.com/watch?v=nStEuHWJE-o)
-- [AGROKRUH - sattelite view (Google Maps) of an array of fields](http://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3)
-- [AGROKRUH - Introductory text](http://ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf)
+- [AGROKRUH - sattelite view (Google Maps) of an array of fields](https://www.google.de/maps/@48.1699222,17.3968533,339m/data=!3m1!1e3)
+- [AGROKRUH - Introductory text](https://ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf)
 
 Lets work on the
 [OSEG Wiki](https://wiki.opensourceecology.de/AgroCircle)
@@ -100,7 +100,7 @@ https://forum.lulzbot.com/t/tip-converting-openscad-files-easily-to-step-with-fr
 
 ### Port
 
-[Agrokruh - port (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=53)
+[Agrokruh - port (Sloval, video)](https://www.youtube.com/watch?v=IMbGA-nOW64#t=53)
 
 Function:
 
@@ -120,7 +120,7 @@ Function:
 
 Realisation:
 
-[Agrokruh - rotary bearing (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=5m35)
+[Agrokruh - rotary bearing (Sloval, video)](https://www.youtube.com/watch?v=IMbGA-nOW64#t=5m35)
 
 - optional incremental encoder (for feedback)
 - Electrical sliding contacts:
@@ -150,9 +150,9 @@ Function:
 
 Realisation:
 
-- [Agrokruh - main propulsion - 1 (Slovak, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
-- [Agrokruh - main propulsion - 2 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=2m01)
-- [Agrokruh - pedal propulsion (Sloval, video)](http://www.youtube.com/watch?v=fuixyXiodR8#t=26)
+- [Agrokruh - main propulsion - 1 (Slovak, video)](https://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
+- [Agrokruh - main propulsion - 2 (Sloval, video)](https://www.youtube.com/watch?v=Von3EgRGutw#t=2m01)
+- [Agrokruh - pedal propulsion (Sloval, video)](https://www.youtube.com/watch?v=fuixyXiodR8#t=26)
 - 3phase motor + transmission (prototype utilizes 750W motor).
 - Alternative:
   Custom wound motor, wound for torque and low RPM.
@@ -176,8 +176,8 @@ sets speed and gauge/track width of the spirale.
 
 ## Tool holder
 
-- [Agrokruh - tool holder - 1 (Slovak, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=4m30)
-- [Agrokruh - tool holder - 2 (Sloval, video)](http://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55)
+- [Agrokruh - tool holder - 1 (Slovak, video)](https://www.youtube.com/watch?v=IMbGA-nOW64#t=4m30)
+- [Agrokruh - tool holder - 2 (Sloval, video)](https://www.youtube.com/watch?v=IMbGA-nOW64#t=6m55)
 
 - Self-constraining transmission ratio + stepper motor,
 - Chain- or cable drive with feedback of the optional incremental encoder,
@@ -208,8 +208,6 @@ sets speed and gauge/track width of the spirale.
 
 [Agrokruh - striding spades (Sloval, video)](https://www.youtube.com/watch?v=2Rb5o1D7laI)
 
-BAD link: <http://www.agrokruh.sk/node/954>
-
 ### Tiller
 
 - [Tillage (Sloval, video)](https://www.youtube.com/watch?v=FOb1tvbV8-w)
@@ -220,8 +218,8 @@ BAD link: <http://www.agrokruh.sk/node/954>
 
 ### Grubber (Sowing/seeding preparation tool)
 
-- [Grubber - 1 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
-- [Grubber - 2 (Sloval, video)](http://www.youtube.com/watch?v=Von3EgRGutw#t=3m55)
+- [Grubber - 1 (Sloval, video)](https://www.youtube.com/watch?v=Von3EgRGutw#t=1m35)
+- [Grubber - 2 (Sloval, video)](https://www.youtube.com/watch?v=Von3EgRGutw#t=3m55)
 
 ### Electronics (optional)
 
@@ -252,13 +250,13 @@ and he has to love the place he is aiding.
 <!-- phone: 0918 655 564 -->
 
 [Talk TEDx Bratislava (Slovak with English subtitles)](
-http://www.youtube.com/watch?v=ZwP3A6z4sFc)
+https://www.youtube.com/watch?v=ZwP3A6z4sFc)
 
 [HD version of TEDx Talk (Slovak with English subtitles)](
-http://www.youtube.com/watch?v=2P7MGNLz5xE)
+https://www.youtube.com/watch?v=2P7MGNLz5xE)
 
 ## Discussion
 
-[OSE Germany - forum](http://forum.opensourceecology.de/viewtopic.php?f=28&t=632&p=3504#p3504)
+[OSE Germany - forum](https://forum.opensourceecology.de/t/agrocircle/522)
 
 [Google Groups](https://groups.google.com/forum/#!forum/agrocircle)
